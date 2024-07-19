@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "target": "ES2023",
+      "module": "ESNext",
+      "declaration": true, //it will generate the declarative file so we dont have to write it. declarative means <filename>.d.ts file.
+      "declarationDir": "dist", // if we give this then it will generate with this name but if we not then it will automatically genearete with same name
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution":"Node",
+      "sourceMap": true,
+      "esModuleInterop": true,
+  
+    }
+  }
