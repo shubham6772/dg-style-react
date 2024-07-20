@@ -1,0 +1,38 @@
+#DGR-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--size1);
+    height: var(--size1);
+    border-radius: 50%;
+    border-top: 5px solid var(--color1);
+    animation: spin 2s linear infinite;
+}
+
+#DGR-inner-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--size2);
+    height: var(--size2);
+    border-radius: 50%;
+    border-top: 5px solid var(--color2);
+    animation: spin 1s linear infinite reverse;
+
+}
+
+#DGR-innermost-loader {
+    width: var(--size3);
+    height: var(--size3);
+    border-radius: 50%;
+    border-top: 5px solid var(--color3);
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
