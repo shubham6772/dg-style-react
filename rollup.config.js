@@ -28,6 +28,7 @@ export default defineConfig({
         output: "dist/index.css",
         failOnError: true,
         sourceMap : true,
+        outputStyle : "compressed",
         fileName : "index.css"
       }),
       terser(), // Minify the bundle
