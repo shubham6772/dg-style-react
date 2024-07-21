@@ -1,0 +1,47 @@
+.DGR-checkBox{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: background-color 0.3s;
+}
+
+.DGR-check{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: var(--color);
+    padding-bottom: 4px;
+    display: var(--isChecked);
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-icon {
+    width: 14px;
+    height: 6px;
+    border-left: 3px solid rgba(34, 32, 32, 0.644);
+    border-bottom: 3px solid rgba(34, 32, 32, 0.644);
+    rotate: -45deg;
+    transition: border-color 0.3s, display 0.3s;
+}
+
+.DGR-checkBox-Container{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.DGR-checkBox-Container:hover{
+    cursor: pointer;
+    background-color: #d1d0d04f;
+}
