@@ -1,0 +1,22 @@
+
+.DGR-progress-container {
+    max-width: var(--max);
+    width: var(--max);
+    background-color: var(--backgroundColor);
+    border-radius: var(--borderRadius);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.DGR-progress-bar {
+    height: 10px;
+    // width: 0;
+    width: var(--value);
+    max-width: var(--max);
+    background-color: var(--color);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 0px 25px 25px 0px;
+    transition: width 0.2s;
+}
+
