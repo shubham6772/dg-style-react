@@ -1,6 +1,6 @@
 {
   "name": "dg-style-react",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "A css library which can be used by anyone for react projects",
   "main": "dist/index.js",
   "type": "module",
