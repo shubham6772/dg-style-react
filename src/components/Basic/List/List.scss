@@ -1,0 +1,13 @@
+.DGR-Horizontal-List{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.DGR-hide-loader{
+    visibility: hidden;
+}
+
+.DGR-show-loader{
+    visibility: visible;
+}
